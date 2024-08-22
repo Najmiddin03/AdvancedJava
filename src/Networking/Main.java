@@ -12,10 +12,10 @@ public class Main {
 
         System.out.println("Address: " + Arrays.toString(inetAddress.getAddress()));
         System.out.println("Host address: " + inetAddress.getHostAddress());
-        System.out.println("Is any local address: "+inetAddress.isAnyLocalAddress());
-        System.out.println("Is link local address: "+inetAddress.isLinkLocalAddress());
-        System.out.println("Is loop back address: "+inetAddress.isLoopbackAddress());
-        System.out.println("Is site local address: "+inetAddress.isSiteLocalAddress());
-        System.out.println("Hashcode: "+inetAddress.hashCode());
+        System.out.println("Is any local address: " + inetAddress.isAnyLocalAddress());
+        System.out.println("Is link local address: " + inetAddress.isLinkLocalAddress());
+        System.out.println("Is loop back address: " + inetAddress.isLoopbackAddress());
+        System.out.println("Is site local address: " + inetAddress.isSiteLocalAddress());
+        System.out.println("Hashcode: " + inetAddress.hashCode());
     }
 }
