@@ -11,8 +11,8 @@ public class Byte_Stream_IO {
         FileInputStream inStream = null;
         FileOutputStream outStream = null;
         try {
-            inStream = new FileInputStream("D:\\JavaLearning\\AdvancedJava\\src\\InputOutput\\source.txt");
-            outStream = new FileOutputStream("D:\\JavaLearning\\AdvancedJava\\src\\InputOutput\\test.txt");
+            inStream = new FileInputStream("src\\InputOutput\\source.txt");
+            outStream = new FileOutputStream("src\\InputOutput\\test.txt");
             int content;
             while ((content = inStream.read()) != -1) {
                 outStream.write((byte) content);

@@ -7,7 +7,7 @@ public class Main {
         Student s = new Student("Najmiddin", 21, "Dzialdowska 8a");
         s.setX(15);
 
-        String filename = "D:\\JavaLearning\\AdvancedJava\\src\\Serialization\\text.txt";
+        String filename = "src\\Serialization\\text.dat";
         FileOutputStream fileOut = null;
         ObjectOutputStream objectOut = null;
 
